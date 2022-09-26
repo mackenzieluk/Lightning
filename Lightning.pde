@@ -1,16 +1,16 @@
-PImage bg;
+//PImage bg;
 int y;
 void setup(){
   size(500,500);
   noLoop();
-  bg = loadImage("flash-removebg-preview.png");
+  //bg = loadImage("flash-removebg-preview.png");
  
 }
 int startX=0;
 int startY=150;
 
 void draw(){
-background(bg);
+//background(bg);
 while(startX<500){
 int endX=(int)((Math.random()*10)+startX);
 int endY=(int)((Math.random()*10)+startY) ;
