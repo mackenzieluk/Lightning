@@ -15,7 +15,7 @@ while(startX<500){
 int endX=(int)((Math.random()*10)+startX);
 int endY=(int)((Math.random()*10)+startY) ;
   stroke(239,240,44);
-  line(startX,startY,endX,endY);
+  line(startX,startY,endX,endY); 
 startX=endX;
 startY=endY;
 
@@ -32,7 +32,7 @@ startY=(int)((Math.random()*50));
 
 void mousePressed(){
   redraw();
- 
+  
 
 
 
